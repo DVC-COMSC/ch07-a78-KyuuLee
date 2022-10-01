@@ -2,9 +2,10 @@
 words = input('Enter the list: ').split()
 
 are = ['a', 'r', 'e']
-idxlst = []
+
 for i in range(len(words)):
 	# idxlst = [ words[i].find(are[j]) for j in range(len(are))] 
+	idxlst = []
 	for j in range(len(are)):
 		if j == 0: 
 			prev = 0 
