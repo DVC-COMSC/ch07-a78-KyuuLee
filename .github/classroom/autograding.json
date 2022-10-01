@@ -4,7 +4,7 @@
       "name": "T1",
       "setup": "",
       "run": "python main.py",
-      "input": "are  arrow  amore  aspire",
+      "input": "are arrow amore aspire",
       "output": "[\\w,\\W]*are[\\w,\\W]*amore[\\w,\\W]*aspire[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python main.py",
       "input": "are areare arrow rear",
-      "output": "[\\w,\\W]*are[\\w,\\W]*areare[\\w,\\W]",
+      "output": "[\\w,\\W]*are[\\w,\\W]*areare[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
